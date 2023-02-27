@@ -37,7 +37,7 @@ router.get("/:id", async (req, res) => {
     });
     if (!tagData) {
       res.status(404).json({
-        message: "Category with the id " + req.params.id + "is not found!",
+        message: "Category with the id " + req.params.id + " is not found!",
       });
       return;
     }
@@ -73,7 +73,7 @@ router.put("/:id", async (req, res) => {
     );
     if (!updateTag) {
       res.status(404).json({
-        message: "Tag with the id " + req.params.id + "is not found!",
+        message: "Tag with the id " + req.params.id + " is not found!",
       });
     }
     res.status(200).json(updateTag);
