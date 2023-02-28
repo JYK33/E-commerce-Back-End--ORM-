@@ -14,4 +14,4 @@ Clone the repository and install NPM with `npm i`. Source the database with MySQ
 ## Usage <a id="usage"></a>
 Run the application in the command line by running `node server`. After the server is running, use insomnia to test the different routes. 
 
-## Link to application demo <a id="link"></a>: https://www.youtube.com/watch?v=EgxUkl1EE4Q&ab_channel=JohnKang
+## Link to application demo <a id="link"></a>: https://www.youtube.com/watch?v=acW4P4iQDfc&ab_channel=JohnKang
